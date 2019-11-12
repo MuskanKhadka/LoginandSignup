@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+ <EditText
+     android:id="@+id/etsignname"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="20dp"
+     android:textAlignment="center"
+     android:hint="Provide User Name"/>
+    <EditText
+        android:id="@+id/etsignpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:hint="Provide Password"/>
+    <EditText
+        android:id="@+id/etsignconfrimpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:hint="Confrim Password"/>
+    <Button
+        android:id="@+id/btsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:text="SIGN UP"
+        android:textAlignment="center"/>
+
+</LinearLayout>

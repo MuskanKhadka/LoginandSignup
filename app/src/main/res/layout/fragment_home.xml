@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/etFsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first number"
+        android:layout_margin="40dp"
+        />
+    <EditText
+        android:id="@+id/etSsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUM"
+        android:layout_margin="60dp"
+        />
+    <TextView
+        android:id="@+id/tvSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
